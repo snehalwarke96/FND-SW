@@ -6,6 +6,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     background: linear-gradient(to right,rgba(237, 223, 223, 0.8),rgba(245,245,245,.8)) ;  
     padding: 0px;
+    box-sizing: border-box;
 }
 .header{
     /* background-color: aqua; */
@@ -99,11 +100,7 @@ text-transform: uppercase;
 
     
 }
-#contact{
-    height: auto;
-  
- 
-}
+
 .homeCon{
     /* position: absolute;
     top: 50%;
@@ -162,6 +159,10 @@ text-transform: uppercase;
 
 }
 
+.wrap i{
+font-size: 22px;
+}
+
 .homebtn button:hover, .proj1 button:hover {
     /* background-color: rgb(234, 95, 95); */
     transition: all 0.5s ease-in-out;
@@ -173,10 +174,25 @@ text-transform: uppercase;
     
 }
 
-.Contactsticky img{
+.Contactsticky{
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    top: 46%;
+    height: 100px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.Contactsticky a i{
     /* position: relative; */
-    height: 40px;
-    margin: 9px;
+    font-size: 35px;
+   color: black;
+    /* margin: 9px; */
     padding: 3px;
 }
 
@@ -186,17 +202,14 @@ text-transform: uppercase;
     background-color: aqua;
 } */
 
-.Contactsticky img:hover{
-    
-  border: 2px solid gray;
-  border-radius: 10px;
+.Contactsticky a i:hover{
+    /* padding: 3px; */
+    background-color: black;
+    color: white;
+  border: 1px solid black;
+  border-radius: 50%;
 }
-.Contactsticky{
-    position: absolute;
-    background-color: white;
-    border-radius: 10px;
-    top: 40%;
-}
+
 
 .mouseScroll{
     position: absolute;
@@ -263,7 +276,7 @@ text-transform: uppercase;
    
 .space{
     /* background-color: aqua; */
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .space2{
     /* background-color: aqua; */
@@ -574,18 +587,18 @@ letter-spacing: 0.px;
         margin-left: 8px;
     }
     
-    .conlist{
+    /* .conlist{
         margin-bottom: 70px;
-    }
+    } */
  
-    .conlist img{
+    /* .conlist img{
         width: 40px;
         
         margin-right: 15px;
         padding: 5px;
-    }
-    .conlist img:hover{
-        /* filter: invert(1); */
+    } */
+    /* .conlist img:hover{
+  
         
          border: 2px solid black;
          border-radius: 50%;
@@ -593,7 +606,7 @@ letter-spacing: 0.px;
     
     }
     .conlist div{
-        /* list-style: none; */
+  
         display: flex;
         margin-bottom: 20px;
         align-items: center;
@@ -606,7 +619,7 @@ letter-spacing: 0.px;
     align-items: center;
     background: linear-gradient(to right,rgba(237, 170, 170, 0.8),rgba(245,245,245,.8)),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
     background-position: center;
-   }
+   } */
 
 
    .skills{
@@ -636,10 +649,46 @@ letter-spacing: 0.px;
  
    }
 
+   #contact{
+    position: relative;
+    height: 320px;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 200px ;
+    left: 0;
+    background: linear-gradient(to right,rgba(237, 170, 170, 0.8),rgba(245,245,245,.8)),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+    background-position: center;
+   }
+
+   .contInfo{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    width: fit-content;
+    margin:  20px auto; 
+   }
+
+   .contInfo div{
+    padding: 5px 0px;
+    margin: 10px 0px;
+   }
+   .conI{
+   font-size: 28px;
+   color: black;
+   }
+  
+   .conI:hover{
+ 
+    color: rgb(223, 58, 58);
+
+}
   
 
 .footer{
-    position: absolute;
+    position: relative;
     width:100%;
     height: 60px;
     background-color: white;
@@ -695,10 +744,8 @@ letter-spacing: 0.px;
 
    }
 
-   @media only screen and (max-width: 800px) {
-    /* .header{
-    background-color: rgb(55, 255, 0);
-    } */
+   @media only screen and (max-width: 740px) {
+ 
    
     .myName{
         font-size: 16px;
@@ -726,6 +773,14 @@ letter-spacing: 0.px;
         font-size: 23px ;
 
     }
+    
+    .contInfo div{
+        font-size: 18px;
+    }
+    .conI{
+        font-size: 24px;
+    }
+
 }
 
 
@@ -785,11 +840,7 @@ flex-direction: row-reverse;
         height: 45px;
       
     }
-    .Contactsticky img{
-
-        height: 35px;
-       
-    }
+ 
     .homebtn button{
 
     
@@ -851,12 +902,7 @@ flex-direction: row-reverse;
         height: 40px;
       
     }
-    .Contactsticky img{
-
-        height: 30px;
-        margin: 4px;
-       
-    }
+    
     .homebtn button{
         font-size:14px ;
         width: 120px;
@@ -870,6 +916,7 @@ flex-direction: row-reverse;
         font-size: 9px;
       
     }
+
 }
 
 @media only screen and (max-width: 400px) {
