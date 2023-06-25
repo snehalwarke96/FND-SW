@@ -691,6 +691,9 @@ width: 25px;
   .projectHeader h1 {
     font-size: 20px;
   }
+  .projheading h2{
+   font-size: 18px;
+  }
   .projectHeader p {
     text-align: center;
     /* width: 80vw; */
