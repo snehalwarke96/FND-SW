@@ -31,8 +31,6 @@ body {
 .logName img {
   width: 45px;
   margin-right: 10px;
-  /* height: 50px; */
-  /* margin: 10px; */
   cursor: pointer;
 }
 .logName {
@@ -181,14 +179,9 @@ background: linear-gradient(
 }
 
 .proj1 button:hover {
-  /* background-color: rgb(234, 95, 95); */
   transition: all 0.5s ease-in-out;
-  /* transform: translateY(5px); */
-
   transform: translateY(-5px);
-  /* transform:rotate(30deg); */
-  /* transform: scale(1.1); */
-  /* transform: scale(1.1); */
+
 }
 
 .Contactsticky {
@@ -250,25 +243,6 @@ background: linear-gradient(
   }
 }
 
-.relativeEd {
-  position: relative;
-  top: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* margin: 100px; */
-}
-
-.space {
-  /* background-color: aqua; */
-  margin-bottom: 30px;
-}
-.space2 {
-  /* background-color: aqua; */
-  margin: 60px 0px 20px 0px;
-}
-
 .projectHeader h1 {
   text-align: center;
   color: rgb(51, 49, 49);
@@ -315,14 +289,11 @@ background: linear-gradient(
   background-color: rgb(130 64 216);
 }
 .allProjectsDiv {
-  /* position: absolute; */
-
-  gap: 25px;
+ gap: 25px;
   width: 99.6%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  /* border: 1px solid  rgb(199, 109, 7); */
   justify-content: center;
   align-items: flex-start;
 }
@@ -397,8 +368,6 @@ background: linear-gradient(
   background-color: rgb(182, 146, 229);
   border: 2px solid rgb(136, 82, 207);
   padding: 20px;
-  /* margin: 0px 20px; */
-  /* width: 750px; */
   cursor: pointer;
 }
 
@@ -410,8 +379,7 @@ background: linear-gradient(
   background-color: white;
   border: 2px solid whitesmoke;
   padding-left: 50px;
-  /* display: block; */
-  /* width: 740px; */
+
   cursor: pointer;
   height: 120px;
   transition: 0.8s height;
@@ -421,8 +389,7 @@ background: linear-gradient(
   background-color: white;
   border: 2px solid whitesmoke;
   padding-left: 50px;
-  /* display: block; */
-  /* width: 740px; */
+
   cursor: pointer;
   height: 120px;
   transition: 0.8s height;
@@ -433,18 +400,13 @@ background: linear-gradient(
   background-color: white;
   border: 2px solid whitesmoke;
   padding-left: 50px;
-  /* padding: 20px 0px 20px 50px; */
-  /* display: block; */
-  /* width: 740px; */
   height: 120px;
   transition: 0.8s height;
   overflow: hidden;
 }
 
 .detNone {
-  /* display: none; */
   height: 0px;
-  /* transition: 0.8s height ; */
   overflow: hidden;
 }
 
@@ -468,8 +430,6 @@ background: linear-gradient(
 .imgProp {
  
     width: 15px;
-  /* height: 18px; */
-  /* filter: invert(); */
   margin-right: 30px;
   transform: rotate(180deg);
 }
@@ -486,21 +446,15 @@ background: linear-gradient(
 .skillsPic video {
   width: 350px;
   height: 450px;
-  /* margin-left: 30px; */
+
 }
 
 .skillsInfo img {
   width: 60px;
   margin-top: 16px;
-  /* border: 2px solid rgb(218, 211, 211); */
+
 }
-/* .skillsInfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-} */
+
 
 #Skills {
   background: linear-gradient(
@@ -509,16 +463,16 @@ background: linear-gradient(
     rgba(245, 245, 245, 0.8)
   );
   height: auto;
-  position: relative;
+
   padding-top: 70px;
 }
 
 #contact {
-  position: relative;
-  /* height: 320px; */
+
+ 
   width: 100%;
   background-color: aqua;
-  /* margin-top: 200px; */
+
   padding: 70px 0;
   left: 0;
   background: linear-gradient(
@@ -547,6 +501,7 @@ background: linear-gradient(
     display: flex;
     gap: 10px;
     align-items: center;
+    font-size: 20px;
 }
 .contInfo img {
 width: 25px;
@@ -682,7 +637,7 @@ width: 25px;
 
 } */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 361px) {
   .wrap,
   .wrapDiv,
   .wraplist {
@@ -692,7 +647,7 @@ width: 25px;
         color: aqua;
     } */
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 360px) {
   .header {
     height: fit-content;
   }
@@ -805,87 +760,13 @@ width: 25px;
   .list a {
     font-size: 22px;
   }
+  .contInfo div {
+
+    font-size: 16px;
+}
+.footer{
+    font-size: 14px; 
+    text-align: center;
+}
 }
 
-/* 
-@media only screen and (max-width: 500px) {
-
-    .NavDiv{
-        display: none; 
-    }
-
-    .homeheading{
-        font-size: 21px;
-        text-align: center;
-   
-   
-    } 
-    .homeConpara{
-       font-size: 13px ;
-      
-         
-    }
-    .logName img{
-        height: 40px;
-      
-    }
-    
-    .homebtn button{
-        font-size:14px ;
-        width: 120px;
-        height: 40px;
-     
-    
-    }
-    .footer{
-       
-        height: 40px;
-        font-size: 9px;
-      
-    }
-
-}
-
-@media only screen and (max-width: 400px) {
-
-    
-.proj1 button{
-    width: 125px;
-    margin: 3px;
-    height: 35px;
-    font-size: 13px;
-}
-
-.projImg img{
-    width: 250px;
-    margin: 2px 5px;
-    border: 5px solid rgb(234, 222, 222);
-}
-.proj1{
- 
-    width: 280px;
-    height: 300px;
-    margin: 10px;
-    
-}
-
-
-
-.projheading h2{
-   font-size: 18px;
-
-}
-.projectHeader p{
-   font-size: 13px;
-
-}
-h1{
-   font-size: 20px;
-
-}
-
-.projContent p{
-    font-size: 14px;
-}
-
-} */
