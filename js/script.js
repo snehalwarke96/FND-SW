@@ -1,9 +1,8 @@
 document.querySelector('.Cup').addEventListener('click',() => {
-    // document.querySelector('.detNone').classList.toggle('colgDetails');
+ 
     document.querySelector('.schoolDetails').classList.add('detNone');
     document.querySelector('.diplomaDetails').classList.add('detNone');
     document.querySelector('.colgDetails').classList.toggle('detNone');
-    // document.querySelector('.Cdown').classList.toggle('Cup');
     document.querySelector('.Cup').classList.toggle('Cdown');
     document.querySelector('.Dup').classList.add('Ddown');
     document.querySelector('.Sup').classList.add('Sdown');
@@ -42,37 +41,32 @@ let NavDiv= document.querySelector('.NavDiv');
 
 if (ham != 'none') {
     cross.style.display='none';  
-    wrapDiv.style.display='none';  
+    wrapDiv.style.display='0px';  
 }
 if (NavDiv != 'none') {
-    // cross.style.display='none';  
-    wrapDiv.style.display='none';  
+    wrapDiv.style.height='0px';  
 }
-// else{
-//     cross.style.display='block';  
-//     wrapDiv.style.display='block';  
-// }
+
 
 ham.addEventListener('click', (e => {
     console.log('snehal')
     ham.style.display='none';  
     cross.style.display='block';  
-        wrapDiv.style.display='block';  
+        wrapDiv.style.height='100vh';  
 }))
 
 cross.addEventListener('click', (e => {
     console.log('snehal')
     ham.style.display='block';  
     cross.style.display='none';  
-        wrapDiv.style.display='none';  
+        wrapDiv.style.height='0px';  
 }))
 
 wrapDiv.addEventListener('click', (e => {
     ham.style.display='block';  
     cross.style.display='none';  
-        wrapDiv.style.display='none';  
+        wrapDiv.style.height='0px';  
 }))
-
 
 
 

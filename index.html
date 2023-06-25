@@ -1,304 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snehal Warke | Portfolio</title>
-    <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      as="font"
+      crossorigin=""
+      href="font/CherrySwash400.woff2"
+      rel="preload"
+      type="font/woff2"
+    />
+    <style>
+      @font-face {
+        font-family: "Cherry Swash";
+        src: url("font/CherrySwash400.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+    </style>
 
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
     <header class="header">
-        <div class="headerDiv">
-            <div class="logName">
-                <a href="#Home"><img src="./favicon/android-chrome-192x192.png" alt="logo"></a>
-                <span class="myName">Snehal Warke</span>
-            </div>
-            <div class="NavDiv">
-                <nav class="navbar">
-                    <ul class="ullist">
-                        <li class="list"><a href="#Home">Home</a></li>
-                        <li class="list"><a href="#Projects">Projects</a></li>
-                        <li class="list"><a href="#Skills">Skills</a></li>
-                        <li class="list"><a href="#contact">Contact</a></li>
-
-                    </ul>
-                </nav>
-            </div>
-
-            <div class="wrap">
-                <i class="fa-solid fa-bars ham"></i>
-                <i class="fa-solid fa-xmark cross"></i>
-            </div>
-
+      <div class="headerDiv container">
+        <div class="logName">
+          <a href="#Home"
+            ><img src="./assets/favicon/android-chrome-192x192.png" alt="logo"
+          /></a>
+          <span class="myName">Snehal Warke</span>
         </div>
-        <div class="wrapDiv">
-            <nav class="wrapnavbar">
-                <ul class="wraplist">
-                    <li class="list"><a href="#Home">Home</a></li>
-                    <li class="list"><a href="#Projects">Projects</a></li>
-                    <li class="list"><a href="#Skills">Skills</a></li>
-                    <li class="list"><a href="#contact">Contact</a></li>
-
-                </ul>
-            </nav>
+        <div class="NavDiv">
+          <nav class="navbar">
+            <ul class="ullist">
+              <li class="list"><a href="#Home">Home</a></li>
+              <li class="list"><a href="#Projects">Projects</a></li>
+              <li class="list"><a href="#Skills">Skills</a></li>
+              <li class="list"><a href="#About">About</a></li>
+              <li class="list"><a href="#contact">Hire Me!</a></li>
+            </ul>
+          </nav>
         </div>
+
+        <div class="wrap">
+          <img class="ham" src="./assets/svg/ham.svg" alt="hamBurgur" />
+          <img class="cross" src="./assets/svg/cross.svg" alt="cross" />
+        </div>
+      </div>
+      <div class="wrapDiv">
+        <nav class="wrapnavbar">
+          <ul class="wraplist">
+            <li class="list"><a href="#Home">Home</a></li>
+            <li class="list"><a href="#Projects">Projects</a></li>
+            <li class="list"><a href="#Skills">Skills</a></li>
+            <li class="list"><a href="#About">About</a></li>
+            <li class="list"><a href="#contact">Hire Me!</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <!-- <hr> -->
-
 
     <section id="Home">
-
-        <div class="homeCon">
-            <div class="homeheading">
-                <h1>HEY, I'M SNEHAL WARKE</h1>
-            </div>
-            <div class="homeConpara">
-                <p>I'm passionate about bringing both the
-                    technical and visual aspects of digital products
-                    to life. User experience, beautiful pixels and writing clean accessible matters to me.</p>
-            </div>
-            <div > <a href="#Projects"><button class="mainBtn">Projects <span class="btnspan"></span></button></a>
-            </div>
+      <div class="homeCon container">
+        <div class="homeheading">
+          <h1>HEY, I'M SNEHAL WARKE</h1>
         </div>
-
-        <div class="Contactsticky">
-
-            <a href="https://github.com/snehalwarke96"> <i class="fa-brands fa-github conimg"></i></a>
-            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
-            
-            
+        <div class="homeConpara">
+          <p>
+            Welcome to my portfolio, where innovation and creativity converge to bring captivating digital experiences to life. Explore my work and witness how I blend design and technology to deliver impactful solutions.
+          </p>
         </div>
-
-        <div class="mouseScroll">
-            <div class="mouseBox">
-                <div class="mouse">()</div>
-            </div>
+        <div class="mainBtn">
+          <a href="#Projects">Projects</a>
         </div>
+      </div>
 
+      <div class="Contactsticky">
+        <a href="https://github.com/snehalwarke96">
+          <img src="./assets/svg/github-icon.svg" alt="github"
+        /></a>
+        <a href="https://www.linkedin.com/feed/"
+          ><img src="./assets/svg/linkedin-icon.svg" alt=""
+        /></a>
+      </div>
+
+      <div class="mouseScroll">
+        <div class="mouseBox">
+          <div class="mouse">•</div>
+        </div>
+      </div>
     </section>
-
-
 
     <section id="Projects">
-        <div class="relative">
-            <div class="projectHeader">
-                <h1>Projects</h1>
-                <div class="borderline"></div>
-                <p>Here you will find Responsive Websites and Applications I have built</p>
-            </div>
-            <div class="allProjectsDiv">
-
-             
-                <div class="proj1">
-                    <div class="projImg"><img src="./assets/multi.jpeg" alt=""></div>
-                    <div class="projheading">
-                        <h2>Multi WebPage</h2>
-                    </div>
-                    <div class="projContent">
-                        <p>The responsive webpage Assignment was given during the course</p>
-                    </div>
-                    <div class="projbtn"> <a href="https://snehalwarke96.github.io/Multi-axioned-proj/"
-                            target="_blank"><button> View It
-                                Here</button></a> <a href="https://github.com/snehalwarke96/Multi-axioned-proj"
-                            target="_blank"><button> View Github Repo</button></a>
-                    </div>
-                </div>
-                
-                
-                <div class="proj1">
-                    <div class="projImg"><img src="./assets/spirit.jpeg" alt=""></div>
-                    <div class="projheading">
-                        <h2>SPIRIT8 WebPage</h2>
-                    </div>
-                    <div class="projContent">
-                        <p>The responsive webpage Assignment was given during the course</p>
-                    </div>
-                    <div class="projbtn"> <a href="https://snehalwarke96.github.io/Spirit8/"
-                            target="_blank"><button> View It
-                                Here</button></a> <a href="https://github.com/snehalwarke96/Spirit8"
-                            target="_blank"><button> View Github Repo</button></a>
-                    </div>
-                </div>
-
-              
-
-                <div class="proj1">
-                    <div class="projImg"><img src="./assets/proj1.jpg" alt=""></div>
-                    <div class="projheading">
-                        <h2>The calculator</h2>
-                    </div>
-                    <div class="projContent">
-                        <p>This application performs Addition Subtraction Multiplication & Division operation.</p>
-                    </div>
-                    <div class="projbtn"> <a href="https://snehalwarke96.github.io/Calculator/"
-                            target="_blank"><button> View It
-                                Here</button></a> <a href="https://github.com/snehalwarke96/Calculator"
-                            target="_blank"><button> View Github Repo</button></a>
-                    </div>
-                </div>
-
-                <div class="proj1">
-                    <div class="projImg"><img src="./assets/todolist.jpeg" alt=""></div>
-                    <div class="projheading">
-                        <h2>To Do List</h2>
-                    </div>
-                    <div class="projContent">
-                        <p>This application let you create, delete and save to do list.</p>
-                    </div>
-                    <div class="projbtn"> <a href="https://snehalwarke96.github.io/To-DO-list/"
-                            target="_blank"><button> View It
-                                Here</button></a> <a href="https://github.com/snehalwarke96/To-DO-list"
-                            target="_blank"><button> View Github Repo</button></a>
-                    </div>
-                </div>
-
-
-                <div class="proj1">
-                    <div class="projImg"><img src="./assets/library.jpeg" alt=""></div>
-                    <div class="projheading">
-                        <h2>library</h2>
-                    </div>
-                    <div class="projContent">
-                        <p>This Application gives all info about selected book.</p>
-                    </div>
-                    <div class="projbtn"> <a href="https://snehalwarke96.github.io/Library/"
-                            target="_blank"><button> View It
-                                Here</button></a> <a href="https://github.com/snehalwarke96/Library"
-                            target="_blank"><button> View Github Repo</button></a>
-                    </div>
-                </div>
-
-
-
-                <div class="proj1">
-                    <div class="projImg"><img src="./assets/proj3.jpg" alt=""></div>
-                    <div class="projheading">
-                        <h2>Clone Website</h2>
-                    </div>
-                    <div class="projContent">
-                        <p>I tried to clone ankur Warikoo website from scratch just for my learning interest.</p>
-                    </div>
-                    <div class="projbtn"> <a href="https://snehalwarke96.github.io/Landing-Page/"
-                            target="_blank"><button> View It
-                                Here</button></a> <a href="https://github.com/snehalwarke96/Landing-Page"
-                            target="_blank"><button> View Github Repo</button></a>
-                    </div>
-                </div>
-              
-                
-                
-                
-
-                <!-- <div class="proj1">
-                    <div class="projImg"><img src="./assets/proj2.jpg" alt=""></div>
-                    <div class="projheading">
-                        <h2>Wall Clock</h2>
-                    </div>
-                    <div class="projContent">
-                        <p>This is an analog clock shows current time.</p>
-                    </div>
-                    <div class="projbtn"> <a href="https://snehalwarke96.github.io/Clock/"
-                            target="_blank"><button> View It
-                                Here</button></a> <a href="https://github.com/snehalwarke96/Clock"
-                            target="_blank"><button> View Github Repo</button></a>
-                    </div>
-                </div> -->
-            </div>
+      <div class="Projectdiv container">
+        <div class="projectHeader">
+          <h1 class="borderline">Projects</h1>
+          <div class="caption">
+            <p>
+              Here you will discover a collection of responsive websites and
+              applications I have developed, showcasing my expertise in crafting
+              visually appealing and functional digital solutions.
+            </p>
+            <p>
+              The project cards provide a glimpse into my portfolio,
+              highlighting my dedication to creating engaging and user-friendly
+              experiences.
+            </p>
+          </div>
         </div>
+        <div class="allProjectsDiv">
+          <div class="proj1">
+            <div class="projImg">
+              <img src="./assets/images/car_mazad.png" alt="website" />
+            </div>
+            <div class="projheading">
+              <h2>CarMazad Website</h2>
+            </div>
+            <div class="projContent">
+              <p>
+                I created a responsive website, faithfully implementing the
+                provided Figma design with pixel-perfection and the specified
+                font, ensuring seamless adaptability across screen sizes.
+              </p>
+            </div>
+            <div class="projbtn">
+              <div>
+                <a
+                  href="https://snehalwarke96.github.io/carMazad/"
+                  target="_blank"
+                  >View It Here</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://github.com/snehalwarke96/carMazad"
+                  target="_blank"
+                >
+                  View Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="proj1">
+            <div class="projImg">
+              <img src="./assets/images/iffco-tokio.png" alt="" />
+            </div>
+            <div class="projheading">
+              <h2>IFFCO-TOKIO Website</h2>
+            </div>
+            <div class="projContent">
+              <p>
+                I transformed the Figma design into a responsive website,
+                achieving pixel-perfect accuracy and utilizing the designated
+                font, resulting in a seamless and adaptable user experience
+                across different screen sizes.
+              </p>
+            </div>
+            <div class="projbtn">
+              <div>
+                <a
+                  href="https://snehalwarke96.github.io/IFFCO-TOKIO/"
+                  target="_blank"
+                  >View It Here</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://github.com/snehalwarke96/IFFCO-TOKIO"
+                  target="_blank"
+                >
+                  View Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="proj1">
+            <div class="projImg">
+              <img src="./assets/images/team-management-system.png" alt="" />
+            </div>
+            <div class="projheading">
+              <h2>Team Management System</h2>
+            </div>
+            <div class="projContent">
+              <p>
+                this app allows you to view all team members on the home page,
+                add new members with duplicate prevention, and provides a
+                dedicated team page for a comprehensive overview of the team's
+                composition.
+              </p>
+            </div>
+
+            <div class="projbtn">
+              <div>
+                <a
+                  href="https://snehalwarke96.github.io/Team-management-system/"
+                  target="_blank"
+                  >View It Here</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://github.com/snehalwarke96/Team-management-system"
+                  target="_blank"
+                >
+                  View Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="proj1">
+            <div class="projImg">
+              <img src="./assets/images/form.png" alt="" />
+            </div>
+            <div class="projheading">
+              <h2>Fill The Form</h2>
+            </div>
+            <div class="projContent">
+              <p>
+                I have implemented a basic form with regex-based validation that
+                detects and displays error messages for incorrect user input.
+                Guiding users to input valid information and preventing
+                submission of erroneous data.
+              </p>
+            </div>
+            <div class="projbtn">
+              <div>
+                <a
+                  href="https://snehalwarke96.github.io/formValidation/"
+                  target="_blank"
+                  >View It Here</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://github.com/snehalwarke96/formValidation"
+                  target="_blank"
+                >
+                  View Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="proj1">
+            <div class="projImg">
+              <img src="./assets/images/todolist.png" alt="" />
+            </div>
+            <div class="projheading">
+              <h2>To Do List</h2>
+            </div>
+            <div class="projContent">
+              <p>
+                The To-Do List application offers users the ability to manage
+                tasks effectively, including adding and removing items.
+                Furthermore, it ensures a seamless experience by retaining the
+                to-do list even after refreshing the page.
+              </p>
+            </div>
+            <div class="projbtn">
+              <div>
+                <a
+                  href="https://snehalwarke96.github.io/To-DO-list/"
+                  target="_blank"
+                  >View It Here</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://github.com/snehalwarke96/To-DO-list"
+                  target="_blank"
+                >
+                  View Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="proj1">
+            <div class="projImg">
+              <img src="./assets/images/calculator.png" alt="" />
+            </div>
+            <div class="projheading">
+              <h2>Basic Calculator</h2>
+            </div>
+            <div class="projContent">
+              <p>
+                I have created a basic calculator app that performs addition,
+                subtraction, division, and multiplication operations. The app
+                enables users to perform simple mathematical calculations
+                quickly and efficiently.
+              </p>
+            </div>
+            <div class="projbtn">
+              <div>
+                <a
+                  href="https://snehalwarke96.github.io/Calculator/"
+                  target="_blank"
+                  >View It Here</a
+                >
+              </div>
+              <div>
+                <a
+                  href="https://github.com/snehalwarke96/Calculator"
+                  target="_blank"
+                >
+                  View Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
+    
 
     <section id="Skills">
 
 
-        <!-- <h1>Education & Skills</h1> -->
-
-
-        <div class="relativeEd">
+        <div class="skilldiv container">
       
            
 
-                <div class="projectHeader space2">
+                <div class="projectHeader borderline">
                     <h1>The Tech-Stack I am good at :</h1>
-                    <div class="borderline"></div>
+                 
                 </div>
-
-                
-                 <div class="skills">
-
+                 <div class="allskill">
                     <div class="scaleInfo ">
                         <div class=" skillsInfo ">
-                            <img src="./assets/html.png" alt="">
-                            <div>HTML5</div>
+                            <img src="./assets/svg/angular-icon.svg" alt="">
+                            <div>Angular</div>
                         </div>
 
-                        <!-- <div class="scale1"></div>
-                        <span class="sc1"></span>
-                        <div class="per">100%</div> -->
-                    </div>
-
-                    <div class="scaleInfo ">
-                        <div class=" skillsInfo ">
-                            <img src="./assets/css.png" alt="">
-                            <div>CSS3</div>
-                        </div>
-
-                        <!-- <div class="scale2"></div>
-                        <span class="sc2"></span>
-                        <div class="per">100%</div> -->
-                    </div>
-
-                    <div class="scaleInfo ">
-                        <div class=" skillsInfo ">
-                            <img src="./assets/js.png" alt="">
-                            <div>JavaScript</div>
-                        </div>
-
-                        <!-- <div class="scale3"></div>
-                        <span class="sc3"></span>
-                        <div class="per">100%</div> -->
-                    </div>
-
-                    <div class="scaleInfo ">
-                        <div class=" skillsInfo ">
-                            <img src="./assets/jquery.png" alt="">
-                            <div>JQuery</div>
-                        </div>
-
-                        <!-- <div class="scale4"></div>
-                        <span class="sc4"></span>
-                        <div class="per">100%</div> -->
                     </div>
                 
-                    <div class="scaleInfo ">
+                <div class="scaleInfo ">
                         <div class=" skillsInfo ">
-                            <img src="./assets/react.png" alt="">
+                            <img src="./assets/svg/react.svg" alt="">
                             <div>React JS</div>
                         </div>
 
-                        <!-- <div class="scale5"></div>
-                        <span class="sc5"></span>
-                        <div class="per">100%</div>
-                    </div> -->
+                </div>
+                <div class="scaleInfo ">
+                    <div class=" skillsInfo ">
+                        <img src="./assets/svg/javascript.svg" alt="">
+                        <div>JavaScript</div>
+                    </div>
+                </div>
+                <div class="scaleInfo ">
+                    <div class=" skillsInfo ">
+                        <img src="./assets/svg/sass.svg" alt="">
+                        <div>SASS</div>
+                    </div>
+                </div>
+
+                    <div class="scaleInfo ">
+                        <div class=" skillsInfo ">
+                            <img src="./assets/svg/html-5.svg" alt="">
+                            <div>HTML5</div>
+                        </div>
+                    </div>
+
+                    <div class="scaleInfo ">
+                        <div class=" skillsInfo ">
+                            <img src="./assets/svg/css-3.svg" alt="">
+                            <div>CSS3</div>
+                        </div>
+                    </div>
+
+                  
+
+          
                 </div>
             </div>
-            <div class="projectHeader space">
-                <h1> Education Details </h1>
-                <div class="borderline"></div>
+        <div class="skilldiv container">
+      
+           
 
+                <div class="projectHeader2 borderline">
+                    <h1>The SoftWare I work with :</h1>
+                 
+                </div>
+                 <div class="allskill">
+                    <div class="scaleInfo ">
+                        <div class=" skillsInfo ">
+                            <img src="./assets/svg/jira.svg" alt="">
+                            <div>Jira</div>
+                        </div>
+
+                    </div>
+                
+                    <div class="scaleInfo ">
+                        <div class=" skillsInfo ">
+                            <img src="./assets/svg/postman-icon.svg" alt="">
+                            <div>Postman</div>
+                        </div>
+
+                </div>
+                <div class="scaleInfo ">
+                    <div class=" skillsInfo ">
+                        <img src="./assets/svg/figma.svg" alt="">
+                        <div>Figma</div>
+                    </div>
+                </div>
+
+                    <div class="scaleInfo ">
+                        <div class=" skillsInfo ">
+                            <img src="./assets/svg/adobe-xd.svg" alt="">
+                            <div>Adobe xd</div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+    </section>
+
+    <section id="About">
+        <div class="aboutdiv container">
+            <div class="projectHeader ">
+                <h1 class="borderline"> About me: </h1>
+                <p class="caption">I'm a frontend developer who loves creating visually appealing and user-friendly websites. With expertise in HTML, CSS, and JavaScript, I enjoy turning design concepts into interactive experiences. My goal is to build intuitive interfaces that make a positive impact and provide seamless user journeys.</p>
             </div>
-            <div class="eduDet">
-                <div class="abso">
-    
+             <div class="eduDet">
+            
+
+                    <div class="school">
+                        <div class="Sdown Sup">
+                            <div class="colgDeg">
+                                <div class="bold">
+                                    Tekno Point/Dept
+                                </div>
+                            <img class="imgProp" src="./assets/svg/black-arrow.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="schoolDetails detNone">
+                        <p>Angular Developer</p>
+                        <p>Dec 2022 - Active</p>
+                        <p>TypeScript, SASS, HTML, CSS, JS, ReactJS</p>
+                    </div>
+                </div>
+                    <div class="diploma">
+                        <div class="Ddown Dup">
+                            <div class="colgDeg">
+                                <div class="bold">
+                                   Dynamic Control System
+                                </div>
+                            <img class="imgProp" src="./assets/svg/black-arrow.svg" alt="">
+                        </div>
+                    </div>
+                    <div id="comDet" class="diplomaDetails detNone">
+                        <p>SoftWare Engineer</p>
+                        <p>June 2021-May2022</p>
+                        <p>Skills:HTML,CSS,js,embedded C</p>
+                    </div>
+                </div>
                     <div class="clg ">
                          <div class="Cdown Cup">
                             <div class="colgDeg">
                             <div class="bold">Bachelor of Engineering / B.E</div>
-                            <div><img class="imgProp" src="./assets/angle-up-solid.svg" alt=""></div>
+                            <div><img class="imgProp" src="./assets/svg/black-arrow.svg" alt=""></div>
                         </div>
                     </div>
                     <div id="comDet" class="colgDetails detNone">
@@ -308,97 +475,27 @@
                     </div>
                     </div>
     
-                    <div class="diploma">
-                            <div class="Ddown Dup">
-                                <div class="colgDeg">
-                                    <div class="bold">
-                                        Diploma College of Engineering
-                                    </div>
-                                <img class="imgProp" src="./assets/angle-up-solid.svg" alt="">
-                            </div>
-                        </div>
-                        <div id="comDet" class="diplomaDetails detNone">
-                            <p>Premlila Vithaldas Polytechnic, Mumbai</p>
-                            <p>Pass Out Batch - May 2016</p>
-                            <p>Percentage - 81% </p>
-                        </div>
-                    </div>
+                 
                
-                    <div class="school">
-                       
-    
-                            <div class="Sdown Sup">
-                                <div class="colgDeg">
-                                    <div class="bold">
-                                        School
-                                    </div>
-                                <img class="imgProp" src="./assets/angle-up-solid.svg" alt="">
-                            </div>
-                        </div>
-                        <div class="schoolDetails detNone">
-                            <p>Sane Guruji Vidyalaya, Mumbai</p>
-                            <p>Pass Out Batch - 2012</p>
-                            <p>Percentage - 86.18% </p>
-                        </div>
-                    </div>
-               
-                </div>
-                </div>
-           
-
-
-            
-    </section>
-    <!-- <section id="contact">
-        
-
-
-        <div class="relative">
-            <div class="projectHeader space2">
-               
-
-            </div>
-       
-
-
-            <div class="contInfo">
                 
-                <div class="conlist">
-                    <div class="projectHeader space2">
-                        <h1>Contact</h1>
-                       
-        
-                    </div>
-                    <div> <img src="./assets/con1.png" alt="Phone No.-"> (+91) 7021 426 412 </div>
-                    <div> <img src="./assets/con2.png" alt="Email Id-"> snehalwarke96@gmail.com</div>
-                    <div> <img src="./assets/con3.png" alt="Location"> kandivali, Mumbai</div>
-                    <div> <a href="https://github.com/snehalwarke96"><img src="./assets/github.png" alt=""></a><a
-                            href="https://www.linkedin.com/feed/"><img src="./assets/linkdin.png" alt=""></a>
-                    </div>
-                </div>
-                <footer class="footer">
-                    <div>ALL RIGHTS RESERVED. COPYRIGHT © 2022. Designed by <strong class="pink">Snehal Warke</strong>. </div>
-                 </footer>
-
-            </div>
+                </div> 
         </div>
-        <div >
-    </section> -->
+        
+    </section>
     
     <section id="contact">
-        <div class="contBack">
-            <div class="contHead projectHeader space2">
-                <h1>Contact</h1>
-                <div class="borderline"></div>
+        <div class="contBack container">
+            <div class=" projectHeader">
+                <h1 class="borderline">Contact to Hire Me!</h1>
             </div>
             <div class="contInfo">
                 
                 <div>
-                    <i class="fa-solid fa-envelope conI"></i>&nbsp &nbsp snehalwarke96@gmail.com</div>
-                    <div>
-                        <i class="fa-solid fa-phone conI"></i> &nbsp&nbsp (+91) 7021 426 412</div>
+                    <img src="./assets/svg/mail.svg" alt="">snehalwarke96@gmail.com
+                </div>
+              
                 <div>
-                    <i class="fa-solid fa-house conI"></i></i> &nbsp &nbspkandivali, Mumbai</div>
+                    <img src="./assets/svg/location.svg" alt="">kandivali, Mumbai</div>
             
                 <div>
                     <a href="https://github.com/snehalwarke96"> <i class="fa-brands fa-github conimg conI"></i></a>&nbsp &nbsp
@@ -410,12 +507,9 @@
 
     <footer class="footer">
         <div>ALL RIGHTS RESERVED. COPYRIGHT © 2022. Designed by <strong class="pink">Snehal Warke</strong>. </div>  
-
-    </footer>
-
-</body>
-<!-- <script src="./js/jquery-3.6.0.min.js"></script>
+    </footer> 
+  </body>
+  <!-- <script src="./js/jquery-3.6.0.min.js"></script>
 <script src="./js/jquery.js"></script> -->
-<script src="./js/script.js"></script>
-
+  <script src="./js/script.js"></script>
 </html>
